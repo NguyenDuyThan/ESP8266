@@ -5,6 +5,7 @@
    Unless required by applicable law or agreed to in writing, this
    software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
    CONDITIONS OF ANY KIND, either express or implied.
+   (1)	export PATH=/opt/xtensa-lx106-elf/bin:$PATH
 */
 
 
@@ -113,7 +114,7 @@ void app_main(void)
     gpio_isr_handler_add(GPIO_INPUT_IO_0, gpio_isr_handler, (void *) GPIO_INPUT_IO_0);
 
     int cnt = 0;
-
+    printf("This test printf nek\n");
     while (1) {
         ESP_LOGI(TAG, "cnt: %d\n", cnt++);
         vTaskDelay(1000 / portTICK_RATE_MS);
