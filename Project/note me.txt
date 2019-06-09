@@ -1,0 +1,3 @@
+not directory :sed -i -e 's/\r$//' gen_misc.sh
+config path in gen_misc.sh
+compare makefile
