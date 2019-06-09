@@ -1,0 +1,6 @@
+{"req":"UPDATE_FW", "version":"FW_CW_V163"}\r\n
+{"req":"CONTROL", "id":"256", "status":"OFF","color":"20","brn":"30" }\r\n
+
+
+{"req":"IOT_DISCOVERY","type":"WF"}
+{"res":"CHANGE_IP", "ip_address":"192.168.1.245","netmask":"255.255.255.0", "gateway":"192.168.1.1"}\r\n
